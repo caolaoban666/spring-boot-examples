@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.mapper.scient.User1Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.test.entity.scient.User1">
+        <id column="ID" property="id" />
+        <result column="LOGIN_NAME" property="loginName" />
+        <result column="NAME" property="name" />
+        <result column="PASSWORD" property="password" />
+        <result column="SALT" property="salt" />
+        <result column="SEX" property="sex" />
+        <result column="AGE" property="age" />
+        <result column="PHONE" property="phone" />
+        <result column="USER_TYPE" property="userType" />
+        <result column="STATUS" property="status" />
+        <result column="ORGANIZATION_ID" property="organizationId" />
+        <result column="CREATE_TIME" property="createTime" />
+    </resultMap>
+
+</mapper>
